@@ -7,14 +7,21 @@
 }
 body {
 
-main
-  background-color: rgb(71, 167, 235);
+
+  background-color: rgb(143, 99, 171);
+}
+h1{
+  color: rgb(245, 240, 250);
+  font-style: italic;
+  font-weight: bold;
 }
 #wrapper{
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 150px;
+  color: rgb(111, 80, 212);
+  font-style: italic;
 
 }
 #quizDiv,
@@ -24,7 +31,7 @@ main
   margin: 2rem auto;
   padding: 1rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #f89bdf;
   position: relative;
 }
 #scoreDiv {
@@ -40,8 +47,8 @@ main
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f00;
-  color: #fff;
+  background-color: rgb(63, 50, 252);
+  color: #ec74da;
   font-size: 1.5rem;
 }
 .question {
@@ -56,7 +63,7 @@ main
 .option {
   width: 46%;
   padding: 0.5rem;
-  border: 1px solid #a7eeee;
+  border: 2px solid #9a42e8;
   border-radius: 20px;
   background-color: azure;
   text-align: center;
@@ -65,18 +72,31 @@ main
 }
 .option:hover {
   transform: scale(1.1);
-  background-color: #000;
-  color: #fff;
+  background-color: #5659f7;
+  color: #f0d7d7;
 }
 
 button {
   margin: 1rem 0;
   padding: 0.5rem 1rem;
-  border: 2px solid azure;
+  border: 2px solid rgb(130, 56, 241);
   border-radius: 20px;
-  background-color: azure;
+  background-color: rgb(188, 140, 247);
   text-align: center;
   transition: all 400ms;
   cursor: pointer;
   box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.4);
+}
+footer{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  background-color: #f6e9f8;
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+  color: #0931f8;
 }
